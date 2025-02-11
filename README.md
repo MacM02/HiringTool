@@ -10,10 +10,14 @@ Assignment: Block Project #2
 # Overview
 
 
-# Running the Program:
+# Running the Program
     g++ -Wall -o main HiringTool.cpp main.cpp
     ./main
 	
+# Limitations
+
+# Ethical Considerations
+
 # Times Worked on
 	Feb 10th, 2025 -> 1.5 hrs
 
