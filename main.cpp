@@ -14,9 +14,12 @@ int main() {
     for (int i = 0; i < 10; i++) {
         int age = i + 20;
         double credit = i + 500.5;
+
         Person p{name, age, credit, randGPA};
+        
         candidates[i] = p;
         randGPA = rand() % 4;
+        name++;
     }
 
     HiringTool tool(candidates);

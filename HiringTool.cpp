@@ -9,7 +9,7 @@
  * February 10th, 2025
  */
 struct Person {
-    char name;
+    std::string name;
     int age;
     double GPA;
     double creditScore;
@@ -19,7 +19,7 @@ struct Person {
 
     // returns a string representation of a Person.
     std::string toString() {
-        std::string details = "Name: " + std::to_string(name) + " Age: " + std::to_string(age) + " GPA: " + std::to_string(GPA) + " Credit Score: " + std::to_string(creditScore);
+        std::string details = "Name: " + name + " Age: " + std::to_string(age) + " GPA: " + std::to_string(GPA) + " Credit Score: " + std::to_string(creditScore);
         return details;
     }
 };
